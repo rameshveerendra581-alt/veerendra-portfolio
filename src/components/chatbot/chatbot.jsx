@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Chatbot.css";
+import "./chatbot.css";
 function getBotResponse(message) {
   const question = message.toLowerCase();
 
