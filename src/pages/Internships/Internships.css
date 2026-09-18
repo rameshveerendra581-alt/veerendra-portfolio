@@ -1,0 +1,178 @@
+.internships {
+  min-height: calc(100vh - 70px);
+
+  padding: 80px 10%;
+
+  background-color: white;
+}
+
+.internships-container {
+  max-width: 1000px;
+
+  margin: 0 auto;
+}
+
+/* Header */
+
+.internships-header {
+  text-align: center;
+
+  margin-bottom: 60px;
+}
+
+.internships-header p {
+  color: #2563eb;
+
+  font-weight: bold;
+
+  margin-bottom: 8px;
+}
+
+.internships-header h1 {
+  font-size: 42px;
+
+  color: #0f172a;
+}
+
+/* Internship List */
+
+.internships-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+/* Internship Card */
+
+.internship-card {
+  display: flex;
+
+  gap: 25px;
+
+  padding: 30px;
+
+  background-color: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 10px;
+
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+/* Number */
+
+.internship-number {
+  min-width: 55px;
+
+  height: 55px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #0f172a;
+
+  color: white;
+
+  border-radius: 50%;
+
+  font-weight: bold;
+
+  font-size: 15px;
+}
+
+/* Content */
+
+.internship-content {
+  flex: 1;
+}
+
+.internship-content h2 {
+  font-size: 23px;
+
+  color: #0f172a;
+
+  margin-bottom: 6px;
+}
+
+.internship-content h3 {
+  font-size: 17px;
+
+  color: #2563eb;
+
+  margin-bottom: 15px;
+}
+
+.internship-content p {
+  color: #475569;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  margin-bottom: 18px;
+}
+
+/* Technologies */
+
+.internship-tech {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.internship-tech span {
+  padding: 6px 11px;
+
+  background-color: #eff6ff;
+
+  color: #2563eb;
+
+  border-radius: 15px;
+
+  font-size: 13px;
+
+  font-weight: 500;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .internships {
+    padding: 60px 20px;
+  }
+
+  .internships-header h1 {
+    font-size: 36px;
+  }
+
+  .internship-card {
+    flex-direction: column;
+
+    gap: 15px;
+  }
+
+  .internship-number {
+    min-width: 50px;
+
+    width: 50px;
+
+    height: 50px;
+  }
+
+}

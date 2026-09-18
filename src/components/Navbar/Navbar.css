@@ -1,0 +1,68 @@
+.navbar {
+  width: 100%;
+  min-height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 60px;
+
+  background-color: #0f172a;
+  color: white;
+}
+
+/* Logo */
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Navigation Links */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 15px;
+
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #38bdf8;
+}
+
+/* Resume Button */
+
+.navbar-button a {
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background-color: #38bdf8;
+  color: #0f172a;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 6px;
+
+  transition: transform 0.3s ease;
+}
+
+.navbar-button a:hover {
+  transform: translateY(-2px);
+}
